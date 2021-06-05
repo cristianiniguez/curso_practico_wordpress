@@ -20,13 +20,11 @@
           <nav>
             <?php
 
-            wp_nav_menu(
-              array(
-                'theme_location' => 'top_menu',
-                'menu_class' => 'menu-principal',
-                'container_class' => 'container-menu'
-              )
-            );
+            wp_nav_menu(array(
+              'theme_location' => 'top_menu',
+              'menu_class' => 'menu-principal',
+              'container_class' => 'container-menu'
+            ));
 
             ?>
           </nav>
